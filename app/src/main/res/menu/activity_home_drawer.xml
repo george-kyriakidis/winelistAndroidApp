@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/wines"
+            android:icon="@drawable/ic_local_bar_black_24dp"
+            android:title="Wines" />
+
+        <item
+            android:id="@+id/preview"
+            android:icon="@drawable/ic_pageview_blackblack_24dp"
+            android:title="Preview" />
+
+        <item
+            android:id="@+id/winelists"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Winelists" />
+
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign Out" />
+
+    </group>
+
+
+</menu>
